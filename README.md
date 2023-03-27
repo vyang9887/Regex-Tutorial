@@ -1,4 +1,4 @@
-# Title (replace with your title)
+# Regex Tutorial - by Victor Yang
 
 Regular Expression (Regex) are methods and rules for helping developers search for and/or match text. These Regex methods can be used in a variety of ways to perform operations that can match text, validate formats such as email addresses or phone numbers, ensure a user's password matches minimum security criteria and more.
 
@@ -19,10 +19,8 @@ This combination of characters might just look like a series of random character
 - [Flags](#flags)
 - [Grouping and Capturing](#grouping-and-capturing)
 - [Bracket Expressions](#bracket-expressions)
-- [Greedy and Lazy Match](#greedy-and-lazy-match)
-- [Boundaries](#boundaries)
-- [Back-references](#back-references)
-- [Look-ahead and Look-behind](#look-ahead-and-look-behind)
+- [Character Escapes](#Character_Escapes)
+- [Putting it Together](#Putting_it_Together)
 
 ## Regex Components
 
@@ -38,7 +36,7 @@ Notice that in the string above, we saw two instances of 'fal'. Applying the reg
 
 ### Anchors
 
--   <mark>^</mark> - Beginning - Matches the beginning of the string, or the beginning of a line if the multiline flag m is also enabled. This only matches the position, NOT characters.
+-   <mark>^</mark> Beginning - Matches the beginning of the string, or the beginning of a line if the multiline flag m is also enabled. This only matches the position, NOT characters.
 
 -   <mark>$</mark> End - Matches the end of the string, or the end of a line if the multiline flag m is also enabled. This only matches the position, NOT characters.
 
@@ -120,7 +118,7 @@ Example: the expression \. will search for the character '.'
 
 -   <mark>\0 </mark>- null - Matches any NULL characters. (character code of 0)
 
-### Let's put it all together!
+### Putting it Together
 Now that we have a better understanding of regex and how it functions, let's revisit the email validation regex that we saw that the beginning of this excercise:
 
    <mark>/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/</mark>
