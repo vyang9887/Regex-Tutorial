@@ -74,7 +74,7 @@ Example expression /.at/ will result in = That shipment you sent was a much need
 
 -   <mark>[^]</mark> - Negated Set - Match any characters not inside of the brackets.
 
-<mark>Example expression /[^p]an/ will search for any character that is NOT 'p' followed by characters 'an'. This gives us = Chelsea likes burgers more than pizza.</mark>
+<mark>Example expression /[^p]an/ will search for any character that is NOT 'p' followed by characters 'an'. IE: Pandas are a lazier t*han* any other animal.</mark>
 
 -   <mark>[a-e]</mark> - Range - Matches any characters that contains a character code between the two specified characters included between the brackets.
 
